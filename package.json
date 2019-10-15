@@ -1,0 +1,17 @@
+{
+  "name": "20_mongoDB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seeds": "node seeds.js",
+    "seeds:delete": "node seeds.js --delete"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "mongoose": "^5.7.4"
+  }
+}
